@@ -134,3 +134,36 @@ header {
 #links-footer img:hover {
     zoom: 105%;
 }
+
+
+/* === Training info page === */
+
+#section-courses {
+    margin: 20px 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.card-course-content {
+    padding: 10px 40px 40px;
+}
+
+.card-course-content-logo,
+.card-course-content-title,
+.card-coruse-content-info {
+    padding: 30px 0;
+}
+
+.card-course-content:hover {
+    background-color: var(--color-rocket2);
+    border-radius: 7%;
+    filter: brightness(90%);
+}
+
+.card-course-content-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
