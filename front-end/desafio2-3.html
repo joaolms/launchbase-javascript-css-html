@@ -5,6 +5,7 @@
         <title>Desafio 2</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="desafio2.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
 
     <body>
@@ -20,13 +21,13 @@
         </header>
 
         <section id="section-courses">
-            <div class="card-course-content">
+            <div class="card-course-content" id="starter">
                 <div class="card-course-content-logo">
                     <img src="images/logo-starter.svg">
                 </div>
                 
                 <div class="card-course-content-title">
-                    <h2>Starter</h2>
+                    <h1>Starter</h1>
                 </div>
 
                 <div class="card-course-content-info">
@@ -41,13 +42,13 @@
                 </div>
             </div>
 
-            <div class="card-course-content">
+            <div class="card-course-content" id="launchbase">
                 <div class="card-course-content-logo">
                     <img src="images/logo-launchbase.svg">
                 </div>
                 
                 <div class="card-course-content-title">
-                    <h2>LaunchBase</h2>
+                    <h1>LaunchBase</h1>
                 </div>
 
                 <div class="card-course-content-info">
@@ -62,13 +63,13 @@
                 </div>
             </div>
 
-            <div class="card-course-content">
+            <div class="card-course-content" id="gostack">
                 <div class="card-course-content-logo">
                     <img src="images/logo-go-stack.svg">
                 </div>
                 
                 <div class="card-course-content-title">
-                    <h2>GoStack</h2>
+                    <h1>GoStack</h1>
                 </div>
                 <div class="card-course-content-info">
 
@@ -83,5 +84,20 @@
             </div>
         </section>
 
+        <div class="modal-overlay">
+
+            <div class="modal">
+                <a class="close-icon">
+                    <i class="material-icons">close</i>
+                </a>
+
+                <div class="modal-content">
+                    <iframe src="" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <script src="desafio2.js"></script>
     </body>
+
 </html>
